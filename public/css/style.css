@@ -1,0 +1,34 @@
+body {
+    background: #2D2D2D;
+    color: #eee;
+    font-family: Helvetica, Calibri, sans-serif;
+}
+
+h1 {
+    color: #CC99CC;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 10px auto;
+    width: 60%;
+}
+
+tr:nth-child(even) {
+    background-color: #3a3a3a;
+}
+
+td {
+    padding: 15px;
+}
+
+td:nth-child(1) {
+    color: #F99157;
+    font-weight: 600;
+}
+
+td:nth-child(2) {
+    color: #99CC99;
+    text-align: right;
+}
